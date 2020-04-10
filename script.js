@@ -133,7 +133,7 @@ function generatePassword() {
 }
 
   // This puts the password value into the textbox
-  function UserInput(ps) {
-    document.getElementById("password").textContent = ps;
+  function UserInput(pw) {
+    document.getElementById("password").textContent = pw;
 
   }
