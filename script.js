@@ -35,8 +35,8 @@ var generate = document.querySelector("#generate");
 
 generate.addEventListener("click", 
     function() {
-    ps = generatePassword();
-    document.getElementById("password").placeholder = ps;
+    pw = generatePassword();
+    document.getElementById("password").placeholder = pw;
     }
   );
 
@@ -127,9 +127,9 @@ function generatePassword() {
       password.push(String.fromCharCode(pickChoices));
   }
   // This joins the password array and converts it to a string
-  var ps = password.join("");
-  UserInput(ps);
-  return ps;
+  var pw = password.join("");
+  UserInput(pw);
+  return pw;
 }
 
   // This puts the password value into the textbox
